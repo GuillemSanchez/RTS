@@ -12,7 +12,7 @@ For me, balancing a game means that any of the game elements are inefective or u
 
 ## Index
 
-## Unit Balancing
+## Unit Balancing basics
 
 Now we barely know what is balencing a game, but was is the meaning of this?
 Whould you rather play a game that allows this?
@@ -89,15 +89,20 @@ We can subsitute this in the next equation:
 #### R + S + P = 1 
 
 #### R + R + R = 1
-### R = 1/3
+#### R = 1/3
 
 And we get the same if we use the other variables.
 
-### R = 1/3
-### P = 1/3
-### S = 1/3
+#### R = 1/3
+#### P = 1/3
+#### S = 1/3
 
 This will so important in the last point of this wiki, if you wanna go direct press here. But first let's talk about some points that are also important if you wanna balance well your game.
+Before going to a new point i want to talk about weakness support.
 
 
+### Weakness Support
 
+The method that we were exploring is when you design your units to be strong against a specific type of enemy unit (or type of units), and weak against another. Weakness Support, is when you make sure that all units have a certain weakness. The difference to rock-paper-scissors is that the weakness is based on an stat of the unit, and not on the stat of an enemy unit. For example, the weakness with infantry in the R/P/S is that it's vulnerable to archers. In Weakness support scenario the infantry's weakness would be slow movement.
+
+The “support” in weakness support refers to how the players should reinforce the unit's weakness. For example, if the infantry is slow-moving, then maybe its “weakness support” is wagons which can transport infantry quickly into battle.
