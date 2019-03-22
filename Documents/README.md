@@ -1,2 +1,3 @@
-# RTS_balancing_Research
-A research about how to balance units and some stuff about RTS games
+I am Guillem Sánchez, student of the <https://www.citm.upc.edu/ing/estudis/graus-videojocs/>(Bachelor’s Degree in Video Games by UPC at CITM). This content is generated for the second year’s
+subject Project 2, under supervision of lecturer
+<https://es.linkedin.com/in/ricardpillosu>(Ricard Pillosu).
