@@ -81,7 +81,9 @@ With this two equations we can get this:
 #### 0 = P - R
 
 S = P
+
 R = S
+
 P = R
 
 We can subsitute this in the next equation:
