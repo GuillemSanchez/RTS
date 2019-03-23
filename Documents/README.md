@@ -108,3 +108,42 @@ Before going to a new point i want to talk about weakness support.
 The method that we were exploring is when you design your units to be strong against a specific type of enemy unit (or type of units), and weak against another. Weakness Support, is when you make sure that all units have a certain weakness. The difference to rock-paper-scissors is that the weakness is based on an stat of the unit, and not on the stat of an enemy unit. For example, the weakness with infantry in the R/P/S is that it's vulnerable to archers. In Weakness support scenario the infantry's weakness would be slow movement.
 
 The “support” in weakness support refers to how the players should reinforce the unit's weakness. For example, if the infantry is slow-moving, then maybe its “weakness support” is wagons which can transport infantry quickly into battle.
+
+
+### What gamers expect of RTS?
+
+The easy way to answer this question is saying that it depends of the type of strategic gamer that we are asking. RTS fans have largely split off and gravitated towards games that tickled their particular itches more. For real-time battles, you've got Total War. For supply chain management, you've got Factorio. For base-building, you've got Rimworld. For bigger-picture campaigns you've got Paradox's offerings; just as examples.
+Gamers will expect of sure that you can craft, refine and execute a strategy, they want to be creative and piece the tools that we give to them together to make powerful strategys, like unit compositions, timing attacks or build orders. Its not the amount of tools that we give to them is the amount of possibles conbinations that can be done.
+
+
+But lets do a list of some of the most "fun generators" of RTS games:
+
+
+#### Asymmetric Desing
+
+This is a important point that most of the gamers will search nowadays in RTS games, this "fun generator" affects a lot of areas of the game, for example this will make factions more unique, so players could choose according to their preferences about their playstyle or the aesthetics. Maps can have asymmetric desing to, that will make the 1 player campaing more fun and diverse.
+
+
+#### RNG
+
+RNG stands for random number generation, some people think that RNG shouldn't be present in RTS games, because they don't want any type of luck in the game, but most of the player basis thinks that RNG can be implemented in that type of games IF the player can influence with some type of strategy or skill to incress the "luck" of some actions, for example, covering some soldiers behind a rock to get a better change of wining a skirimish. RNG makes the game less predictible and adds tension to the gameplay.
+
+
+#### Unit diferentation
+
+Unit diferentation is really important to a RTS and is something that you should look at any moment to make your game fun to play, units need to feel diferent to the player, its not the same have a army of motorcycles, fast and with great movility, or have a army of tanks, slow but powerfull. Theres is nothing satisfaying about just attack/moving your units, units should be designed in a way that rewards players for being creative.
+
+
+
+
+### What gamers expect of RTS Balance?
+
+Theres at misconception that balances only matters to high-level players, but that is not true, balance is crucial in making a RTS fun.
+
+What we would be the point of having 30 units if only 10 of then are usefull?
+
+Lets say a player strategy is to overwhelm the opponent with some type of bombers (air-ships), they must overcome the fact that bombers are vulnerable to other air units, to complement the bombers the player relies on a antiair infantery. If the antiair infantery is underpowered the strategy will fail, that will cause frustation to the player becauses the strategy failed for reasons which are not faults of their own, the problem was poor balance.
+
+Gamers dont want to have units that doesnt perform its intended role, or an overpower unit that prevents another from doing so. Imbalance is bad and things that are underperfoming or overpowered should be fixed, but good "balance" doesnt make and RTS game more balanced, it emphasizes the unique qualities of each unit, creating more decisions about which tools are used and how they are used.
+
+
