@@ -135,7 +135,6 @@ Unit diferentation is really important to a RTS and is something that you should
 
 
 
-
 ### What gamers expect of RTS Balance?
 
 Theres at misconception that balances only matters to high-level players, but that is not true, balance is crucial in making a RTS fun.
@@ -145,5 +144,28 @@ What we would be the point of having 30 units if only 10 of then are usefull?
 Lets say a player strategy is to overwhelm the opponent with some type of bombers (air-ships), they must overcome the fact that bombers are vulnerable to other air units, to complement the bombers the player relies on a antiair infantery. If the antiair infantery is underpowered the strategy will fail, that will cause frustation to the player becauses the strategy failed for reasons which are not faults of their own, the problem was poor balance.
 
 Gamers dont want to have units that doesnt perform its intended role, or an overpower unit that prevents another from doing so. Imbalance is bad and things that are underperfoming or overpowered should be fixed, but good "balance" doesnt make and RTS game more balanced, it emphasizes the unique qualities of each unit, creating more decisions about which tools are used and how they are used.
+
+
+### Tactics vs Strategy
+
+
+First we need to know the difference between Strategy and Tactics/skill.
+
+Strategy is a complete algorithm for playing the game, telling a player what to do for every possible situation throughout the game. Its more about resource managment and global vision. We will call it Macromanagment (or macro)
+
+Tactics/skills are short-term actions to attain specific goals. More about units managment. We will call it Micromanagment (Micro)
+
+Which is better for our game? It depends, games like starcraft are more focused in the micro, and are good, but game like Civ are more about macro, and also are good. Nowadays, every RTS (excepting some 4X games) have micro in their gameplay, because is really difficult to avoid it.
+
+#### 4X games
+4x or (grand strategy games)are by definition board games in which players control an empire and "explore, expand, exploit, and exterminate". That type of games are more based in macrogestion that anyother. In grand strategy and 4X games you typically don't have much to do with tactics. You decide the target and the ressources you wish to use on that target. Everything that comes after that, namely the tactics, depends on the people who are so tiny that you can't even see them on your interface. Examples of this are Freeciv, Civilization series, or Supremacy 1914.
+
+In theory, strategy/macromanagement is by default more important. The player who comes victorious out of a session is usually the one that could read the game more accurately. In a scenario of two players equally capable in micromanagement, the one who would apply the better macromanagementwould win most of the times.
+
+On the other hand, intensive micromanagement can distract players from macromanagement. The players should make long term decisions, but if they do not have the required speed to execute their moves faster than their opponents, then the strategic part becomes insignificant.
+
+In conclusion, a rough outline of what are the defining characteristics of RTS are can be found in what the senior producer of Command & Conquer: Generals, has said. 
+
+“The fundamentals of these games are pretty similar: they generally have maps or levels to explore and fight over, resources that can be harvested to build structures and units, armies that move and fight, and a technology or “research” tree that unlocks more powerful units and capabilities over time” (Bates 2004)
 
 
