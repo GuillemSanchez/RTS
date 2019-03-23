@@ -145,6 +145,7 @@ Lets say a player strategy is to overwhelm the opponent with some type of bomber
 
 Gamers dont want to have units that doesnt perform its intended role, or an overpower unit that prevents another from doing so. Imbalance is bad and things that are underperfoming or overpowered should be fixed, but good "balance" doesnt make and RTS game more balanced, it emphasizes the unique qualities of each unit, creating more decisions about which tools are used and how they are used.
 
+Gamers like the "meta" but we need to have a flexivle and varied meta, givin the oportuniti to break the current meta with some strategis, to archive that we need to do a good balance of the game, if not players will start to massing the same unit all the time and that is NOT funny.
 
 ### Tactics vs Strategy
 
