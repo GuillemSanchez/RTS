@@ -210,3 +210,52 @@ Lets make our table: (S means spearmen, A means archer and K means Knight, if th
 |SM|0|-20|38|
 |AM|20|0|-38|
 |KM|-38|38|0|
+
+Every one of the sections are calculated with the formula from before.
+
+Now lets use the formulas from R/P/S to take the percents and see if our game is balanced or not.
+
+(Zero-sum)
+#### SM = AM = KM = 0 
+
+(all posibilities)
+#### S + A + K = 1 
+
+(Table resuls)
+
+#### SM = 0 * S + (- 20) * A + (+ 38) * K
+
+#### AM = (+ 20) * S + 0 * A + (- 38) * K
+
+#### KM = (- 38) * S + (+ 38) * A + 0 * K
+
+simplyfied,
+
+#### SM = - 20A + 38K
+
+#### AM = 20S - 38K
+
+#### KM = - 38S + 38A
+
+With the 2 equations (zero-sum, all posibilities)
+
+#### 20A = 38K
+
+#### 20S = 38K
+
+#### 38S = 38A
+
+
+#### S + A + K = 1 
+
+lets calculate the results:
+
+#### A = 38/96 = 0,39
+
+#### K = 760/2604 = 0,29
+
+#### S = ... = 0,32
+
+Here
+
+
