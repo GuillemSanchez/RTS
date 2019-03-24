@@ -256,6 +256,8 @@ lets calculate the results:
 
 #### S = ... = 0,32
 
-Here
+From the results of the probability calculation, it can be take that our theoretical RTS video game would actually be fairly balanced, being the three probabilities of the opponent utilizing the units rounding the 0,33. The unit or unit type that would be most underutilized in this hypothetical RTS game would be the knight. If the designer of this game prefered to make gunmen a more relevant unit, they would likely have to decrease the unit’s cost or change some of the stats.
+
+
 
 
