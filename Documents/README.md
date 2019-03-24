@@ -258,6 +258,49 @@ lets calculate the results:
 
 From the results of the probability calculation, it can be take that our theoretical RTS video game would actually be fairly balanced, being the three probabilities of the opponent utilizing the units rounding the 0,33. The unit or unit type that would be most underutilized in this hypothetical RTS game would be the knight. If the designer of this game prefered to make gunmen a more relevant unit, they would likely have to decrease the unit’s cost or change some of the stats.
 
+If you download the excel you can make the same with your units, if you wanna add more units apart from the three i recomend to go to this link, i based all this section in how this works, the only problem is that the spreadsheet doesnt give the percents at the end.
+
+
+### Maths in game economy
+
+
+RTS always have an internal economy in some type of form, usually tou need to gather resourse and manage them. Without and economy the game will be more like a RTT, with only troup control.
+
+The first step for creating a game economy system is to determine every resource type that the player will be able to gather in the game. There’s no set number on how many resources the game should have, but the game balancing is way more controlable when the game has a low number of resource types.
+
+Every resource type needs to have a certain rarity regarding the others. This is represented mathematicaly with a rarity index; If the resource is common the rarity index will be near 1, but if the resources is more exotic the index will incres.
+
+If we wanna calculate the index of the resources, first we need to determine how many resources will be in the most basic scenario and how many resource every resource type will have.
+
+For example, our escenario will have in total 3000 resources.
+
+1.231 of this resources will be rock
+1.769 will be wood
+
+We have more wood than rock, so wood as being more common than rock will have a rarity index of 1. To calculate the rarity index, we’ll need to divide the two resources by the total quantity of resources.
+
+wood/resources = 0,59 rock/resources = 0,41
+
+To obtain the rarity index we will just subtract the result of the most common resource with the one that we want to obtain the index from, and then add 1 to the result.
+
+#### index = 1 + 0,59 - 0,41 = 1,18
+
+With this rarity index we will be able to calculate the total cost of anything we want to calculate the cost from, being buildings, units...; Using this formula:
+
+#### cost(n) = a * aRI + b * bRI + … + (n-1) * (n-1)RI + n * nRI
+
+n = quantity of resources
+I = rarity index
+a,b... = resources type
+
+
+### Final thoughts
+
+First of all i hope that you found usefull this document and that you have learned something. Some last tips that i can give are that none of the methods explained in the document will be 100% effective on balancing an RTS game, but they will serve as a guide to balance your games and can be adapted to whatever you are making.
+
+The proces is slow and its really important to playtest your game constantly to see how the balance is going and solve any overpowered uniti. No methodology in game design is completely accurate and will not determine how fun a game is for the most part, but if you follow this guides i'm sure that will be more easy and fun to play.
+
+### Bibliography:
 
 
 
