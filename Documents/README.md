@@ -170,3 +170,43 @@ In conclusion, a rough outline of what are the defining characteristics of RTS a
 “The fundamentals of these games are pretty similar: they generally have maps or levels to explore and fight over, resources that can be harvested to build structures and units, armies that move and fight, and a technology or “research” tree that unlocks more powerful units and capabilities over time” (Bates 2004)
 
 
+
+### Numbers and more Numbers
+
+Lets take again the R/P/S equations and lets aply it to our games. First we need to define our three types of units that we wanna aply the R/P/S system. Lets say that we have a spearmen, a knight (in a horse) and a archer. Now we need to define each roll, archers have long-range attacks that will be lethal to our spearmen, but the spearmen with their spears can kill the knights easy, and our knights are to fast to get killed before they charge to our archers, so spearmen win against knights, knights win against archers and archers win against the spearmen.
+
+
+As R/P/S we need some type of measure to track our balances. Every unit will have a cost, hp, and attack, the attack will the damage ratio that the unit does to the other type's of unit, so we will have three type of damage:
+
+ID: bonus or damage against infantery units (spearmen)
+RD: bonus or damage against ranged units (archers)
+CD: bonus or damage against cavalry units (knights)
+
+
+here is the table of stats:
+
+|Type|Cost|HP|ID|CD|RD|
+|---|---|---|---|---|---|
+|Spearmen|120|90|8|16|0|
+|Archer|60|80|10|4|6|
+|Knight|220|200|16|16|10|
+
+
+You can see that the knight is overpowered, but is that really true? Lets see
+
+First lets make a table like we did it in R/P/S. Lets call "A" our unit and "B" rival's unit, we will use the next formula to calculate the result, the formula is difficult, i will link a table to a excel that it will do it automaticly. This formula is taken out of this link.
+
+Formula:
+
+Min((A cost/ B dmg (against A)), ((B Hp/ A dmg (against B)) * (A dmg (Against B) * (B cost/ B hp) - (B dmg (against A) * (A cost/A hp)))
+
+That formula will give us the result of a 1 vs 1 unit combat effeciency, if the result is positive means that the our unit would be more efficient (less resource wasting) than the enemy unit. 
+
+Lets make our table: (S means spearmen, A means archer and K means Knight, if the acronim have a M means that is our unit)
+
+
+| |S|A|K|
+|----|-----|-----|-----|
+|SM|0|-20|38|
+|AM|20|0|-38|
+|KM|-38|38|0|
