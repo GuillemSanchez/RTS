@@ -2,6 +2,8 @@
 I am Guillem Sánchez, student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
 In this Website I'm gonna explain how works the balance of units and some other stuff in RTS video games like Age of Empires II: The Age of Kings, Ensemble Studios or Praetorians, Pyro Studios.
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Age_empires_1.gif)
+
 But, What is balancing in a game?
 
 For me, balancing a game means that any of the game elements are ineffective or undesirable to play with or against.
@@ -17,6 +19,8 @@ For me, balancing a game means that any of the game elements are ineffective or 
 Now we barely know what is balancing a game, but was is the meaning of this?
 Would you rather play a game that allows this?
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Age_empires_cheats.gif)
+
 It's a bit extremely, but this is NOT fun, we want to avoid this in our games, that is why Units are one of the core components of any RTS video game. It is important to have a balanced roster of units. Without a good unit balance, the game would be like a farming simulation with some types of units that can destroy the rival farm.
 
 ### Visible vs Hidden Balancing
@@ -25,10 +29,13 @@ There are 2 main kinds of unit balancing, the first one is the visible, this kin
 
 The second type of unit balancing is hidden balancing, This kind of balancing is used in the games rules, changing probabilities for events or efficiencies of abilities. Examples of abstract balancing are stats like health, damages, crit. Hidden balancing is usually presented to the player through text labels in the UI (user interface).
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Protos_Air_attack.gif)
 
 ### Rock/Paper/Scisors
 
 One way of unit balancing is using the "Ol' reliable" Rock/Paper/Scissors, we have three types of entities, consisting of rock, paper and scissors; and these entities counteract each other: rock wins scissors, scissors wins paper and paper wins rock. Then we only need to change the names of the entities, and PUFFF we have a good balanced game...
+
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Rock_Paper_Scisors.png)
 
 #### NOOOOO! Our game doesnt work WHYYYYYYY?????
 
@@ -110,6 +117,7 @@ The method that we were exploring is when you design your units to be strong aga
 
 The “support” in weakness support refers to how the players should reinforce the unit's weakness. For example, if the infantry is slow-moving, then maybe its “weakness support” is wagons which can transport infantry quickly into battle.
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Weakness_support.png)
 
 ### What gamers expect of RTS?
 
@@ -120,6 +128,7 @@ Gamers will expect of sure that you can craft, refine and execute a strategy, th
 
 But let's do a list of some of the most "fun generators" of RTS games:
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Expectations.jpg)
 
 #### Asymmetric Desing
 
@@ -133,6 +142,7 @@ RNG stands for random number generation, some people think that RNG shouldn't be
 
 Unit differentiation is really important to an RTS and is something that you should look at any moment to make your game fun to play, units need to feel different to the player, it's not the same have an army of motorcycles, fast and with great mobility, or have an army of tanks, slow but powerful. There's is nothing satisfying about just attack/moving your units, units should be designed in a way that rewards players for being creative.
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/RNG.gif)
 
 ### What gamers expect of RTS Balance?
 
@@ -160,6 +170,7 @@ Which is better for our game? It depends, games like starcraft are more focused 
 #### 4X games
 4x or (grand strategy games)are by definition board games in which players control an empire and "explore, expand, exploit, and exterminate". That type of games are more based in macrogestion that any other. In grand strategy and 4X games you typically don't have much to do with tactics. You decide the target and the resources you wish to use on that target. Everything that comes after that, namely the tactics, depends on the people who are so tiny that you can't even see them on your interface. Examples of this are Freeciv, Civilization series, or Supremacy 1914.
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/4X.jpg)
 
 In theory, strategy/macromanagement is by default more important. The player who comes victorious out of a session is usually the one that could read the game more accurately. In a scenario of two players equally capable in micromanagement, the one who would apply the better macromanagementwould win most of the times.
 
@@ -176,6 +187,8 @@ In conclusion, a rough outline of what are the defining characteristics of RTS a
 ### Numbers and more Numbers
 
 Let's take again the R/P/S equations and lets apply it to our games. First we need to define our three types of units that we wanna apply the R/P/S system. Let's say that we have a spear men, a knight (in a horse) and an archer. Now we need to define each roll, archers have long-range attacks that will be lethal to our spear men, but the spear men with their spears can kill the knights easy, and our knights are too fast to get killed before they charge to our archers, so spear men win against knights, knights win against archers and archers win against the spear men.
+
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Charge.gif)
 
 As R/P/S we need some type of measure to track our balances. Every unit will have a cost, hp, and attack, the attack will the damage ratio that the unit does to the other type's of unit, so we will have three type of damage:
 
@@ -259,8 +272,11 @@ From the results of the probability calculation, it can be taken that our theore
 
 If you download the excel you can make the same with your units, if you wanna add more units apart from the three i recommend to go to this link, I based all this section in how this works, the only problem is that the spreadsheet doesn't give the percents at the end.
 
+
+
 ### Maths in game economy
 
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Resources.jpg)
 
 RTS always have an internal economy in some type of form, usually you need to gather resources and manage them. Without and economy the game will be more like an RTT, with only troop control.
 
