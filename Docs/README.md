@@ -14,6 +14,80 @@ For me, balancing a game means that any of the game elements are ineffective or 
 
 ## Index
 
+
+
+### What gamers expect of RTS?
+
+The easy way to answer this question is saying that it depends on of the type of strategic gamer that we are asking. RTS fans have largely split off and gravitated towards games that tickled their particular itches more. For real-time battles, you've got Total War. For supply chain management, you've got Factorio. For base-building, you've got Rimworld. For bigger-picture campaigns you've got Paradox's offerings; just as examples.
+
+Gamers will expect of sure that you can craft, refine and execute a strategy, they want to be creative and piece the tools that we give to them together to make powerful strategies, like unit compositions, timing attacks or build orders.It'ss not the amount of tools that we give to them is the amount of possiblescombinationss that can be done.
+
+
+But let's do a list of some of the most "fun generators" of RTS games:
+
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Expectations.jpg)
+
+#### Asymmetric Desing
+
+This is an important point that most of the gamers will search nowadays in RTS games, this "fun generator" affects a lot of areas of the game, for example this will make factions more unique, so players could choose according to their preferences about their play style or the aesthetics. Maps can have asymmetric design to, that will make the 1 player campaign more fun and diverse.
+
+#### RNG
+
+RNG stands for random number generation, some people think that RNG shouldn't be present in RTS games, because they don't want any type of luck in the game, but most of the player basis thinks that RNG can be implemented in that type of games IF the player can influence with some type of strategy or skill to increment the "luck" of some actions, for example, covering some soldiers behind a rock to get a better change of wining a skirmish. RNG makes the game less predictable and adds tension to the game play.
+
+#### Unit diferentation
+
+Unit differentiation is really important to an RTS and is something that you should look at any moment to make your game fun to play, units need to feel different to the player, it's not the same have an army of motorcycles, fast and with great mobility, or have an army of tanks, slow but powerful. There's is nothing satisfying about just attack/moving your units, units should be designed in a way that rewards players for being creative.
+
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/RNG.gif)
+
+### What gamers expect of RTS Balance?
+
+There's at misconception that balances only matters to high-level players, but that is not true, balance is crucial in making an RTS fun.
+
+What we would be the point of having 30 units if only 10 of then are useful?
+
+Let's say a player strategy is to overwhelm the opponent with some type of bombers (air-ships), they must overcome the fact that bombers are vulnerable to other air units, to complement the bombers the player relies on an antiair infantry. If the antiair infantry is under powered the strategy will fail, that will cause frustration to the player because the strategy failed for reasons which are not faults of their own, the problem was poor balance.
+
+Gamers don't want to have units that doesn't perform its intended role, or a overpower unit that prevents another from doing so. Imbalance is bad and things that are underperfoming or overpowered should be fixed, but good "balance" doesn't make and RTS game more balanced, it emphasizes the unique qualities of each unit, creating more decisions about which tools are used and how they are used.
+
+Gamers like the "meta" but we need to have a flexible and varied meta, given the opportunity to break the current meta with some strategies, to archive that we need to do a good balance of the game, if not players will start to massing the same unit all the time and that is NOT funny.
+
+
+### Tactics vs Strategy
+
+First we need to know the difference between Strategy and Tactics/skill.
+
+Strategy is a complete algorithm for playing the game, telling a player what to do for every possible situation throughout the game. Its more about resource management and global vision. We will call it Macromanagement (or macro)
+
+Tactics/skills are short-term actions to attain specific goals. More about units management. We will call it Micromanagement (Micro)
+
+Which is better for our game? It depends, games like starcraft are more focused in the micro, and are good, but game like Civ are more about macro, and also are good. Nowadays, every RTS (excepting some 4X games) have micro in their game play, because is really difficult to avoid it.
+
+#### 4X games
+4x or (grand strategy games)are by definition board games in which players control an empire and "explore, expand, exploit, and exterminate". That type of games are more based in macrogestion that any other. In grand strategy and 4X games you typically don't have much to do with tactics. You decide the target and the resources you wish to use on that target. Everything that comes after that, namely the tactics, depends on the people who are so tiny that you can't even see them on your interface. Examples of this are Freeciv, Civilization series, or Supremacy 1914.
+
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/4X.jpg)
+
+In theory, strategy/macromanagement is by default more important. The player who comes victorious out of a session is usually the one that could read the game more accurately. In a scenario of two players equally capable in micromanagement, the one who would apply the better macromanagementwould win most of the times.
+
+
+On the other hand, intensive micromanagement can distract players from macromanagement. The players should make long term decisions, but if they do not have the required speed to execute their moves faster than their opponents, then the strategic part becomes insignificant.
+
+
+In conclusion, a rough outline of what are the defining characteristics of RTS are can be found in what the senior producer of Command & Conquer: Generals, has said. 
+
+
+“The fundamentals of these games are pretty similar: they generally have maps or levels to explore and fight over, resources that can be harvested to build structures and units, armies that move and fight, and a technology or “research” tree that unlocks more powerful units and capabilities over time” (Bates 2004)
+
+### Visible vs Hidden Balancing
+
+There are 2 main kinds of unit balancing, the first one is the visible, this kind is balances that can be directly seen by the player, range of a shot, speed of a unit or type of movement (ground unit, sea unit, flying unit).
+
+The second type of unit balancing is hidden balancing, This kind of balancing is used in the games rules, changing probabilities for events or efficiencies of abilities. Examples of abstract balancing are stats like health, damages, crit. Hidden balancing is usually presented to the player through text labels in the UI (user interface).
+
+![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Protos_Air_attack.gif)
+
 ## Unit Balancing basics
 
 Now we barely know what is balancing a game, but was is the meaning of this?
@@ -23,13 +97,6 @@ Would you rather play a game that allows this?
 
 It's a bit extremely, but this is NOT fun, we want to avoid this in our games, that is why Units are one of the core components of any RTS video game. It is important to have a balanced roster of units. Without a good unit balance, the game would be like a farming simulation with some types of units that can destroy the rival farm.
 
-### Visible vs Hidden Balancing
-
-There are 2 main kinds of unit balancing, the first one is the visible, this kind is balances that can be directly seen by the player, range of a shot, speed of a unit or type of movement (ground unit, sea unit, flying unit).
-
-The second type of unit balancing is hidden balancing, This kind of balancing is used in the games rules, changing probabilities for events or efficiencies of abilities. Examples of abstract balancing are stats like health, damages, crit. Hidden balancing is usually presented to the player through text labels in the UI (user interface).
-
-![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Protos_Air_attack.gif)
 
 ### Rock/Paper/Scisors
 
@@ -119,71 +186,6 @@ The “support” in weakness support refers to how the players should reinforce
 
 ![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Weakness_support.png)
 
-### What gamers expect of RTS?
-
-The easy way to answer this question is saying that it depends on of the type of strategic gamer that we are asking. RTS fans have largely split off and gravitated towards games that tickled their particular itches more. For real-time battles, you've got Total War. For supply chain management, you've got Factorio. For base-building, you've got Rimworld. For bigger-picture campaigns you've got Paradox's offerings; just as examples.
-
-Gamers will expect of sure that you can craft, refine and execute a strategy, they want to be creative and piece the tools that we give to them together to make powerful strategies, like unit compositions, timing attacks or build orders.It'ss not the amount of tools that we give to them is the amount of possiblescombinationss that can be done.
-
-
-But let's do a list of some of the most "fun generators" of RTS games:
-
-![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Expectations.jpg)
-
-#### Asymmetric Desing
-
-This is an important point that most of the gamers will search nowadays in RTS games, this "fun generator" affects a lot of areas of the game, for example this will make factions more unique, so players could choose according to their preferences about their play style or the aesthetics. Maps can have asymmetric design to, that will make the 1 player campaign more fun and diverse.
-
-#### RNG
-
-RNG stands for random number generation, some people think that RNG shouldn't be present in RTS games, because they don't want any type of luck in the game, but most of the player basis thinks that RNG can be implemented in that type of games IF the player can influence with some type of strategy or skill to increment the "luck" of some actions, for example, covering some soldiers behind a rock to get a better change of wining a skirmish. RNG makes the game less predictable and adds tension to the game play.
-
-#### Unit diferentation
-
-Unit differentiation is really important to an RTS and is something that you should look at any moment to make your game fun to play, units need to feel different to the player, it's not the same have an army of motorcycles, fast and with great mobility, or have an army of tanks, slow but powerful. There's is nothing satisfying about just attack/moving your units, units should be designed in a way that rewards players for being creative.
-
-![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/RNG.gif)
-
-### What gamers expect of RTS Balance?
-
-There's at misconception that balances only matters to high-level players, but that is not true, balance is crucial in making an RTS fun.
-
-What we would be the point of having 30 units if only 10 of then are useful?
-
-Let's say a player strategy is to overwhelm the opponent with some type of bombers (air-ships), they must overcome the fact that bombers are vulnerable to other air units, to complement the bombers the player relies on an antiair infantry. If the antiair infantry is under powered the strategy will fail, that will cause frustration to the player because the strategy failed for reasons which are not faults of their own, the problem was poor balance.
-
-Gamers don't want to have units that doesn't perform its intended role, or a overpower unit that prevents another from doing so. Imbalance is bad and things that are underperfoming or overpowered should be fixed, but good "balance" doesn't make and RTS game more balanced, it emphasizes the unique qualities of each unit, creating more decisions about which tools are used and how they are used.
-
-Gamers like the "meta" but we need to have a flexible and varied meta, given the opportunity to break the current meta with some strategies, to archive that we need to do a good balance of the game, if not players will start to massing the same unit all the time and that is NOT funny.
-
-
-### Tactics vs Strategy
-
-First we need to know the difference between Strategy and Tactics/skill.
-
-Strategy is a complete algorithm for playing the game, telling a player what to do for every possible situation throughout the game. Its more about resource management and global vision. We will call it Macromanagement (or macro)
-
-Tactics/skills are short-term actions to attain specific goals. More about units management. We will call it Micromanagement (Micro)
-
-Which is better for our game? It depends, games like starcraft are more focused in the micro, and are good, but game like Civ are more about macro, and also are good. Nowadays, every RTS (excepting some 4X games) have micro in their game play, because is really difficult to avoid it.
-
-#### 4X games
-4x or (grand strategy games)are by definition board games in which players control an empire and "explore, expand, exploit, and exterminate". That type of games are more based in macrogestion that any other. In grand strategy and 4X games you typically don't have much to do with tactics. You decide the target and the resources you wish to use on that target. Everything that comes after that, namely the tactics, depends on the people who are so tiny that you can't even see them on your interface. Examples of this are Freeciv, Civilization series, or Supremacy 1914.
-
-![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/4X.jpg)
-
-In theory, strategy/macromanagement is by default more important. The player who comes victorious out of a session is usually the one that could read the game more accurately. In a scenario of two players equally capable in micromanagement, the one who would apply the better macromanagementwould win most of the times.
-
-
-On the other hand, intensive micromanagement can distract players from macromanagement. The players should make long term decisions, but if they do not have the required speed to execute their moves faster than their opponents, then the strategic part becomes insignificant.
-
-
-In conclusion, a rough outline of what are the defining characteristics of RTS are can be found in what the senior producer of Command & Conquer: Generals, has said. 
-
-
-“The fundamentals of these games are pretty similar: they generally have maps or levels to explore and fight over, resources that can be harvested to build structures and units, armies that move and fight, and a technology or “research” tree that unlocks more powerful units and capabilities over time” (Bates 2004)
-
-
 ### Numbers and more Numbers
 
 Let's take again the R/P/S equations and lets apply it to our games. First we need to define our three types of units that we wanna apply the R/P/S system. Let's say that we have a spear men, a knight (in a horse) and an archer. Now we need to define each roll, archers have long-range attacks that will be lethal to our spear men, but the spear men with their spears can kill the knights easy, and our knights are too fast to get killed before they charge to our archers, so spear men win against knights, knights win against archers and archers win against the spear men.
@@ -271,7 +273,6 @@ let's calculate the results:
 From the results of the probability calculation, it can be taken that our theoretical RTS video game would actually be fairly balanced, being the three probabilities of the opponent utilizing the units rounding the 0,33. The unit or unit type that would be most underutilized in this hypothetical RTS game would be the knight. If the designer of this game preferred to make gunmen a more relevant unit, they would likely have to decrease the unit’s cost or change some of the stats.
 
 If you download the excel you can make the same with your units, if you wanna add more units apart from the three i recommend to go to this link, I based all this section in how this works, the only problem is that the spreadsheet doesn't give the percents at the end.
-
 
 
 ### Maths in game economy
