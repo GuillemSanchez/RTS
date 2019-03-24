@@ -23,6 +23,7 @@ The easy way to answer this question is saying that it depends on of the type of
 Gamers will expect of sure that you can craft, refine and execute a strategy, they want to be creative and piece the tools that we give to them together to make powerful strategies, like unit compositions, timing attacks or build orders.It'ss not the amount of tools that we give to them is the amount of possiblescombinationss that can be done.
 
 
+
 But let's do a list of some of the most "fun generators" of RTS games:
 
 ![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Expectations.jpg)
@@ -40,6 +41,8 @@ RNG stands for random number generation, some people think that RNG shouldn't be
 Unit differentiation is really important to an RTS and is something that you should look at any moment to make your game fun to play, units need to feel different to the player, it's not the same have an army of motorcycles, fast and with great mobility, or have an army of tanks, slow but powerful. There's is nothing satisfying about just attack/moving your units, units should be designed in a way that rewards players for being creative.
 
 ![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/RNG.gif)
+
+Cool [video](https://www.youtube.com/watch?v=e4icApEI5wE&list=PLQnCYzupbmdZyMHtqfONplLhs3L5JZ7k5) that shows more RTS fun generators
 
 ### What gamers expect of RTS Balance?
 
@@ -63,6 +66,8 @@ Strategy is a complete algorithm for playing the game, telling a player what to 
 Tactics/skills are short-term actions to attain specific goals. More about units management. We will call it Micromanagement (Micro)
 
 Which is better for our game? It depends, games like starcraft are more focused in the micro, and are good, but game like Civ are more about macro, and also are good. Nowadays, every RTS (excepting some 4X games) have micro in their game play, because is really difficult to avoid it.
+
+[Usefull](https://www.spacesector.com/blog/2011/12/strategy-vs-tactics-in-video-games-a-small-essay/) inforamation
 
 #### 4X games
 4x or (grand strategy games)are by definition board games in which players control an empire and "explore, expand, exploit, and exterminate". That type of games are more based in macrogestion that any other. In grand strategy and 4X games you typically don't have much to do with tactics. You decide the target and the resources you wish to use on that target. Everything that comes after that, namely the tactics, depends on the people who are so tiny that you can't even see them on your interface. Examples of this are Freeciv, Civilization series, or Supremacy 1914.
@@ -208,7 +213,7 @@ here is the table of stats:
 
 You can see that the knight is overpowered, but is that really true? Let's see
 
-First lets make a table like we did it in R/P/S. Let's call "A" our unit and "B" rival's unit, we will use the next formula to calculate the result, the formula is difficult, I will link a table to an excel that it will do it automatically. This formula is taken out of this link.
+First lets make a table like we did it in R/P/S. Let's call "A" our unit and "B" rival's unit, we will use the next formula to calculate the result, the formula is difficult, I will link a table to an excel that it will do it automatically. This formula is taken out of this [link](https://www.gamedev.net/forums/topic/685693-rts-unit-balance/?tab=comments#comment-5329035).
 
 Formula:
 
@@ -272,7 +277,7 @@ let's calculate the results:
 
 From the results of the probability calculation, it can be taken that our theoretical RTS video game would actually be fairly balanced, being the three probabilities of the opponent utilizing the units rounding the 0,33. The unit or unit type that would be most underutilized in this hypothetical RTS game would be the knight. If the designer of this game preferred to make gunmen a more relevant unit, they would likely have to decrease the unit’s cost or change some of the stats.
 
-If you download the excel you can make the same with your units, if you wanna add more units apart from the three i recommend to go to this link, I based all this section in how this works, the only problem is that the spreadsheet doesn't give the percents at the end.
+If you download the excel you can make the same with your units, if you wanna add more units apart from the three i recommend to go to this [link](https://www.gamedev.net/forums/topic/685693-rts-unit-balance/?tab=comments#comment-5329035), I based all this section in how this works, the only problem is that the spreadsheet doesn't give the percents at the end.
 
 
 ### Maths in game economy
@@ -326,7 +331,30 @@ First of all I hope that you found useful this document and that you have learne
 
 The process is slow and it's really important to play test your game constantly to see how the balance is going and solve any overpowered unit. No methodology in game design is completely accurate and will not determine how fun a game is for the most part, but if you follow this guides I'm sure that will be more easy and fun to play.
 
-### Bibliography:
+### Bibliography and Usefull links:
 
+https://www.gamasutra.com/view/feature/134768/understanding_balance_in_video_.php?page=3
+
+https://gamebalanceconcepts.wordpress.com/2010/07/07/level-1-intro-to-game-balance/
+
+https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/
+
+https://docs.google.com/spreadsheets/d/1Kcm8HdR_0GE1RVRilz1KMULvu5FM5R4F4s4B7yeD2YE/edit#gid=0
+
+https://www.gamedev.net/forums/topic/685693-rts-unit-balance/
+
+https://en.wikipedia.org/wiki/Zero-sum_game
+
+https://en.wikipedia.org/wiki/Game_balance#cite_note-crawford198212-2
+
+http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/
+
+https://www.reddit.com/r/truegaming/comments/aeuazx/why_has_the_rts_genre_fallen_so_much_out_of_favor/
+
+https://www.theseus.fi/handle/10024/128576
+
+https://www.youtube.com/watch?v=e4icApEI5wE&list=PLQnCYzupbmdZyMHtqfONplLhs3L5JZ7k5
+
+https://waywardstrategy.com/2015/09/25/what-is-an-rts-game/
 
 
