@@ -67,7 +67,7 @@ Tactics/skills are short-term actions to attain specific goals. More about units
 
 Which is better for our game? It depends, games like starcraft are more focused in the micro, and are good, but game like Civ are more about macro, and also are good. Nowadays, every RTS (excepting some 4X games) have micro in their game play, because is really difficult to avoid it.
 
-[Usefull](https://www.spacesector.com/blog/2011/12/strategy-vs-tactics-in-video-games-a-small-essay/) inforamation
+[Usefull](https://www.spacesector.com/blog/2011/12/strategy-vs-tactics-in-video-games-a-small-essay/) information
 
 #### 4X games
 4x or (grand strategy games)are by definition board games in which players control an empire and "explore, expand, exploit, and exterminate". That type of games are more based in macrogestion that any other. In grand strategy and 4X games you typically don't have much to do with tactics. You decide the target and the resources you wish to use on that target. Everything that comes after that, namely the tactics, depends on the people who are so tiny that you can't even see them on your interface. Examples of this are Freeciv, Civilization series, or Supremacy 1914.
