@@ -23,7 +23,7 @@ Gamers will expect of sure that you can craft, refine and execute a strategy, th
 
 But let's do a list of some of the most "fun generators" of RTS games:
 
-![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Expectations.jpg)
+![](https://raw.githubusercontent.com/GuillemSanchez/RTS_balancing_Research/master/Docs/Images/Expectations.jpg)
 
 ### Asymmetric Desing
 
