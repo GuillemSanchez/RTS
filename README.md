@@ -2,7 +2,7 @@
 I am Guillem Sánchez, student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
 In this Website I'm gonna explain how works the balance of units and some other stuff in RTS video games like Age of Empires II: The Age of Kings, Ensemble Studios or Praetorians, Pyro Studios.
 
-![](https://github.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Age_empires_1.gif)
+![](https://raw.githubusercontent.com/GuillemSanchez/RTS_balancing_Research/blob/master/Docs/Images/Age_empires_1.gif)
 
 But, What is balancing in a game?
 
